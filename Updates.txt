@@ -1,0 +1,4 @@
+Mejoras con js para la pagina:
+
+- En la seccion de creacion de mazos, cuando estan todas las imagenes de las cartas, que se vayan agregando a la lista del mazo a crear. Cuando uno quiere enviar el mazo, que se fije si es valido. 
+- En la pagina principal, que al pasar el mouse por "Cartas" aparezca un menu desplazable con las expanciones donde en ellas aparezcan las cartas sacadas en dicha expansion, y tambien que al poner el cursor encima de "Mazos" aparezca otro menú desplazable con las diferentes razas y una opción para crear un mazo

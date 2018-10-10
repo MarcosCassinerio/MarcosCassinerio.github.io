@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>Registrarse</title>
+    <link rel="stylesheet" type="text/css" href="../css/registrarse.css">
+</head>
+<body>
+	<img src="../Fotos/BG.jpg" alt="Background">
+    <form name="formulario" action="archivo.php" method="post">
+        <div align="center">
+            <h1>Registrarse</h1>
+            <label>Nombre</label>
+            </br>
+            <input name="nomb" required="" type="text" placeholder="Nombre y Apellido" />
+            </br>
+            <label>Edad</label>
+            </br>
+            <input name="edad" required="" type="number" placeholder="Edad" />
+            </br>
+            <label>Mail</label>
+            </br>
+            <input name="mail" required="" type="email" placeholder="Mail" />
+            </br>
+            <label>Sexo</label>
+            </br>
+            <select name="sexo" required="" type="text">
+                <option value="hombre">Hombre</option>
+                <option value="mujer">Mujer</option>
+                <option value="otro">Otro</option>
+            </select>
+            </br>
+            <input type="submit" value="Enviar" />
+            </br>
+        </div>
+    </form>
+</body>
+</html>
