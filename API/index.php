@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>Cartas</title>
-		<link rel="stylesheet" type="text/css" href="cartitas.css"> 
+		<link rel="stylesheet" type="text/css" href="../css/cartitas.css"> 
 	</head>
 	<body>
 		<form name="formulario" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
