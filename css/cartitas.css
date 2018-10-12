@@ -44,7 +44,7 @@ p.titulo {
     transform: translateY(100px);
 }
 body {
-    background: url(../API/BG.jpg) no-repeat center center fixed;
+    background: url(../Fotos/BGapi.jpg) no-repeat center center fixed;
     background-size: 100% 100%;
 }
 input[type=submit] {

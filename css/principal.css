@@ -116,3 +116,53 @@ body {
     background: url(../Fotos/LOGO1.jpg) no-repeat center center fixed;
     background-size: cover;
 }
+
+/* Dropdown Button */
+
+.dropbtn {
+    background-color: transparent;
+    color: black;
+    position: relative;
+    font-size: 150%;
+    cursor: pointer;
+    border: none;
+    background: none;
+    transform: translate( 0%, 90%);
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: transparent;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: #6d4029;
+    min-width: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-top: 33%;
+    margin-left: -6%;
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
